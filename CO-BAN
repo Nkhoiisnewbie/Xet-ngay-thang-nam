@@ -1,0 +1,36 @@
+#include <stdio.h>
+int main()
+{
+	int n,t,y;
+	printf("Nhap nam");
+	printf("\nNam: ");
+	scanf("%d",&y);
+	if(y>0)
+	{
+		printf("%d la nam hop le !",y);
+	}
+	else 
+		{
+		printf("%d la nam khong hop le",y);	
+		}
+		
+		printf("\nNhap thang hop le");
+		printf("\nThang: ");
+		scanf("%d",&t);
+		
+		if(t>0&&t<=12)
+		{
+			printf("%d la thang hop le",t);
+			printf("\nNhap ngay hop le",n);
+			scanf("%d",&n);
+			if(n>0&&n<=31)
+			printf("\n%d la so ngay hop le",n);
+			else
+			printf("\n%d la so ngay khong hop le",n);		
+		}
+		else 
+			printf("%d la thang khong hop le",t);
+				
+
+	return 1;
+}
